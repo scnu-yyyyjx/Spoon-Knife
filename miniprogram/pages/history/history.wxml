@@ -1,0 +1,25 @@
+<!--pages/history/history.wxml-->
+<view wx:if="{{loading}}"></view>
+<view wx:else>
+  <view class="num">共找到{{posts.length}}条浏览记录</view>
+  <view wx:if="{{posts.length}}">
+    <view wx:for="{{posts}}">
+      <view bindtap="gotoPost" id="{{item.id}}" class="box">
+
+        <view class="top">
+          <view class="title">{{item.title}}</view>
+          <view class="type">{{types[item.type]}}</view>
+        </view>
+        <view class="nickName">{{users[index].nickName}}</view>
+        <view class="divline"></view>
+        <view class="down">
+          <view class="state1">{{item.tag}}</view>
+          <view class="state">{{dates[index][0]}}/{{dates[index][1]}}/{{dates[index][2]}}
+            {{dates[index][3]}}:{{dates[index][4]}}:{{dates[index][5]}} </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+  <view wx:else>空空如也，赶紧去浏览帖子吧！</view>
+</view>
