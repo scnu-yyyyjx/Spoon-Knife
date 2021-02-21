@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-popup":"/dist/popup",
+    "van-cell":"/dist/cell",
+    "van-divider":"/dist/divider",
+    "van-button":"/dist/button"
+  }
+}

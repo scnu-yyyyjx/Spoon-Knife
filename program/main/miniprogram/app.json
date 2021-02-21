@@ -1,0 +1,50 @@
+{
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/discuss/discuss",
+        "text": "交流",
+        "iconPath": "/img/dicuss.png",
+        "selectedIconPath": "/img/discuss!.png"
+      },
+      {
+        "pagePath": "pages/quesAndans/quesAndans",
+        "text": "问答",
+        "iconPath": "/img/q&a.png",
+        "selectedIconPath": "/img/q&a!.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "/img/me.png",
+        "selectedIconPath": "/img/me!.png"
+      }
+    ]
+  },
+  "pages": [
+    "pages/me/me",
+    "pages/discuss/discuss",
+    "pages/quesAndans/quesAndans",
+    "pages/quesAndans/cover",
+    "pages/postt/postt",
+    "pages/mypost/mypost",
+    "pages/history/history",
+    "pages/getUserInfo/getUserInfo",
+    "pages/postp/postp",
+    "pages/commentTest/commentTest",
+    "pages/changeInfo/changeInfo",
+    "pages/infos/infos",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "学舟",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
